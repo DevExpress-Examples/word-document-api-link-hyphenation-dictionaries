@@ -35,7 +35,7 @@ namespace XtraRichEdit
         private void HyphenateDocument(Document document)
         {
             //Load embedded dictionaries
-            var openOfficePatternStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("XtraRichEdit.hyphen.dic");
+            var openOfficePatternStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("XtraRichEdit.hyph_en_US.dic");
             var customDictionaryStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("XtraRichEdit.hyphen_exc.dic");
 
 
