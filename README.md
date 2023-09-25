@@ -6,13 +6,19 @@
 # How to Link Hyphenation Dictionaries
 
 The following code sample shows how to enable the word hyphenation in the Rich Text Editor. To accomplish the task, you must first add a hyphenation dictionary to the 
-[RichEditControl.HyphenationDictionaries][3] collection.
+[RichEditControl.HyphenationDictionaries][3] collection. Once you link hyphenation dictionaries, you can enable or suppress automatic hyphenation in code or within the UI.
 
-Once you link hyphenation dictionaries, you can enable or suppress automatic hyphenation in code or within the UI.
-[Refer to the Hyphenation topic for more information](https://docs.devexpress.com/WindowsForms/401190/controls-and-libraries/rich-text-editor/hyphenation?).
+> [!note]
+> Please note that DevExpress does not offer hyphenation dictionaries. In this example, we utilize an American hyphenation dictionary from this site: [LibreOffice.org - English Dictionaries][1]. You can download the dictionary source (including the license agreement) from [this link][2]. If you wish to use this dictionary in your application, please ensure the relevant license agreement permits it.
 
-Please note that DevExpress does not offer hyphenation dictionaries. In this example, we utilize an American hyphenation dictionary from this site: [LibreOffice.org - English Dictionaries][1]. You can download the dictionary source (including the license agreement) from [this link][2]. If you wish to use this dictionary in your application, please ensure the relevant license agreement permits it.
 
+## Files to Review
+
+* [Form1.cs](./CS/XtraRichEdit/Form1.cs) (VB: [Form1.vb](./VB/XtraRichEdit/Form1.vb)
+
+## Documentation
+
+* [Hyphenation in Rich Text Documents](https://docs.devexpress.com/WindowsForms/401190/controls-and-libraries/rich-text-editor/hyphenation)
 
 [1]: https://extensions.libreoffice.org/en/extensions/show/english-dictionaries
 [2]: https://extensions.libreoffice.org/assets/downloads/41/dict-en-20210101.oxt
