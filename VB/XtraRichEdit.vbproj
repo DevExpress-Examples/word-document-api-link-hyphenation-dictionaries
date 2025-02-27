@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <OutputType>Exe</OutputType>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    </PropertyGroup>
+    <ItemGroup>
+        <EmbeddedResource Include="hyphen_exc.dic" />
+        <EmbeddedResource Include="hyph_en_US.dic" />
+        <None Update="Multimodal.docx">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="DevExpress.Document.Processor" Version="24.2.*-*" />
+    </ItemGroup>
+</Project>
