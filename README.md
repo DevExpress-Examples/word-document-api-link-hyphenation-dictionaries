@@ -5,7 +5,7 @@
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
 
-# How to Link Hyphenation Dictionaries
+# Word Processing Document API - Link Hyphenation Dictionaries
 
 The following code sample enables the word hyphenation in RichEditDocumentServer. To accomplish the task, you must first add a hyphenation dictionary to the [RichEditDocumentServer.HyphenationDictionaries](https://docs.devexpress.com/OfficeFileAPI/DevExpress.XtraRichEdit.RichEditDocumentServer.HyphenationDictionaries) collection. Once you link hyphenation dictionaries, you can enable or suppress automatic hyphenation in code or within the UI.
 
@@ -15,7 +15,7 @@ The following code sample enables the word hyphenation in RichEditDocumentServer
 
 ## Files to Review
 
-* [Program.cs](./CS/Program.cs) (VB: [Program.vb](./VB/Program.vb)
+* [Program.cs](./CS/Program.cs) (VB: [Program.vb](./VB/Program.vb))
 
 ## Documentation
 
